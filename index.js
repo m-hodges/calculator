@@ -77,3 +77,5 @@ function calculate () {
     }
 };
 calculate();
+
+//decimals not working yet
