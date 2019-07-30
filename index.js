@@ -78,4 +78,4 @@ function calculate () {
 };
 calculate();
 
-//decimals not working yet
+//double decimal operations not working yet
