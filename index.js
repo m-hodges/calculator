@@ -32,6 +32,8 @@ function calculate () {
             //append this value to displayed value while keeping displayed value outside of loop
             if (this.value === "clear") {
                 currentSum = 0
+                cachedSum = 0
+                finalSum = 0
                 document.getElementById("display").value = currentSum
             } else {
                 currentSum = currentSum + this.value
@@ -78,4 +80,4 @@ function calculate () {
 };
 calculate();
 
-//double decimal operations not working yet
+//double operations don't work yet
